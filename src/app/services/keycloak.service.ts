@@ -19,7 +19,7 @@ export class KeycloakService {
 
     return this.keycloak.init({
       onLoad: 'check-sso',
-      checkLoginIframe: false
+     
     });
   }
 
